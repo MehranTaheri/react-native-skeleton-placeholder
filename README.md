@@ -11,13 +11,13 @@ SkeletonPlaceholder is a React Native library to easily create an amazing loadin
 Using yarn:
 
 ```bash
-yarn add react-native-skeleton-placeholder
+yarn add https://github.com/MehranTaheri/react-native-skeleton-placeholder.git
 ```
 
 Using npm:
 
 ```bash
-npm install react-native-skeleton-placeholder --save
+npm install https://github.com/MehranTaheri/react-native-skeleton-placeholder.git --save
 ```
 
 ## Usage
@@ -112,6 +112,7 @@ export default App;
 | **backgroundColor** |        The color of placeholder        | string | _"#eee"_ |
 |   **minOpacity**    | Min opacity value when it is animating | number |  _0.3_   |
 |   **maxOpacity**    | Max opacity value when it is animating | number |  _1.0_   |
+|      **style**      |           style of container           | object |  empty   |
 
 ## Contributing
 
